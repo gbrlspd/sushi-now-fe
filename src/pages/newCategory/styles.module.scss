@@ -1,0 +1,47 @@
+.container {
+  max-width: 720px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.container h1 {
+  color: var(--white);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.input {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: var(--dark-700);
+  color: var(--white);
+  padding: 1rem;
+}
+
+.input::placeholder {
+  color: var(--white);
+  opacity: 0.5;
+}
+
+.button {
+  background-color: var(--green-900);
+  border: 0;
+  padding: 0.5rem;
+  color: var(--dark-900);
+  border-radius: 0.5rem;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,48 @@
+.container {
+  width: 620px;
+  color: var(--white);
+}
+
+.container h2 {
+  margin: 1rem 0;
+}
+
+.table {
+  font-size: 1.3rem;
+}
+
+.divider {
+  margin-top: 1rem;
+  border: 1px solid #152238;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  
+  strong {
+    color: var(--green-900);
+  }
+}
+
+.description {
+  margin-top: 0.5rem;
+  word-break: break-all;
+  font-weight: lighter;
+}
+
+.button {
+  margin-top: 1.5rem;
+  background-color: var(--green-900);
+  color: #152238;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 400px;
+  }
+}
